@@ -1,0 +1,34 @@
+{% extends 'plag/base.html' %}
+{% load staticfiles %}
+
+{% block page_id %}about{% endblock %}
+
+{% block title %}About Us{% endblock %}
+
+{% block desc %}Our goal is simple: 'Help our customers protect their content by effectively detecting plagiarism'. This led to Plagiarism Guardian.{% endblock %}
+
+{% block header_section %}
+    <style type="text/css">
+    #address {
+        display: inline-block;
+        position: relative;
+        top: -2em;
+        left: 0.5em;
+    }
+    </style>
+{% endblock %}
+
+{# TODO Add more content #}
+
+{% block sidebar-content %}
+
+{% endblock %}
+
+{% block content %}
+    <h1>About Us</h1>
+    <p>In 2018 we had a simple goal: <em>Help our customers protect their content by effectively detecting plagiarism</em>. To meet this goal we developed Plagiarism Guardian, an online system which automatically scans content and flags up suspected cases of plagiarism.</p>
+    <p>Our founder <span itemscope itemtype="http://data-vocabulary.org/Person"><a href="#" itemprop="url"><span itemprop="name">?</span></a></span> is a software developer with a passion for plagiarism detection, natural language processing and computational linguistics.</p>
+    <p>We are continuously making improvements to our software and we are one of the most flexible plagiarism detection companies, supporting a range of content types.</p>
+    <p>Plagiarism Guardian is based in the India and we have customers from around the World. Please feel free to <a href="{% url 'contact' %}">contact us</a> if you have any questions, comments or suggestions.</p>
+
+{% endblock %}

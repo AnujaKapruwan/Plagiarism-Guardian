@@ -1,0 +1,107 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Plagiarism Guardian - {% block title %}My amazing site{% endblock %}</title>
+    <meta name="description"
+          content="{% block desc %}Protect your website from plagiarism and content theft with Plagiarism Guardian.{% endblock %}">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="{% static 'plag/styles/normalize.min.css' %}">
+    <link rel="stylesheet" href="{% static 'plag/styles/main.css' %}">
+    <link rel="icon" type="image/png" href="{% static 'plag/img/favicon.png' %}">
+
+    {% block header_section %} {% endblock %}
+
+    <!--[if lt IE 9]>
+    <script src="{% static 'plag/js/html5shiv.min.js' %}"></script>
+    <![endif]-->
+</head>
+
+<body id="page-{% block page_id %}page_id{% endblock %}">
+    <a name="top"></a>
+    <header id="header">
+        <div class="standard-width">
+            <a href="{% url 'index' %}"><img src="{% static 'plag/img/logo.png' %}" alt="Plagiarism Guardian" id="logo" /></a>
+            <label for="show-menu" class="show-menu">Menu</label>
+            <input type="checkbox" id="show-menu" role="button">
+            <nav>
+                <ul class="mainNav">
+                    {% include 'plag/common/website_links.html' %}
+                </ul>
+            </nav>
+            {% block splashintro %} {% endblock %}
+        </div>
+    </header>
+
+
+    <main>
+        <div class="standard-width">
+            <article>
+                {% block content %}{% endblock %}
+            </article>
+
+            {% block sidebar %}
+                <aside id="sidebar">
+                    {% block sidebar-content %}{% endblock %}
+                </aside>
+            {% endblock %}
+            <br class="clear">
+        </div>
+    </main>
+
+    <footer id="footer-initial">
+        <div class="standard-width">
+            <section id="footer-links">
+                <h1><span><img src="{% static 'plag/icon/SiteLinks.png' %}" alt="x" /> Useful Pages</span></h1>
+                <ul>
+                    <li><a href="{% url 'index' %}">Homepage</a></li>
+                    <li><a href="{% url 'about' %}">About Us</a></li>
+                    <li><a href="{% url 'contact' %}">Contact Us</a></li>
+
+
+                </ul>
+            </section>
+
+            <section id="social-block">
+                   <h1><span><img src="{% static 'plag/icon/AddressBook.png' %}" alt="x" /> Address</span></h1>
+                <p itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+                Plagiarism Guardian,<br />
+                <span itemprop="locality">Dehradun</span>,<br />
+                <span itemprop="region">Dehradun</span>,<br />
+                <span itemprop="country-name">India</span>,<br />
+                <span itemprop="postal-code">248001</span></p>
+            </section>
+
+            <section id="contact-info">
+<h1><span><img src="{% static 'plag/icon/Contact.png' %}" alt="x" /> Contact Info</span></h1>
+                <p> <strong>Phone</strong>: +919000000000<br />
+                    <strong>General Email</strong>:admin@plagiarismguardian.com
+                                      <strong>Support Email</strong>::support@plagiarismguardian.com
+                          </p>
+            </section>
+            <br class="clear">
+        </div>
+    </footer>
+
+    <footer id="footer-copyright">
+        <div class="standard-width">
+            <img src="{% static 'plag/img/logo_small.png' %}" alt="Plagiarism Guardian" id="logo" /></a>
+            <!-- TODO Copyright link not clickable due to CSS styling on list -->
+            <p><a href="#">Copyright &copy; 2017-2018</a></p>
+
+        </div>
+    </footer>
+
+    {% block otherelements %} {% endblock %}
+
+    <script src="{% static 'plag/js/jquery-1.11.1.min.js' %}"></script>
+    <script src="{% static 'plag/js/main.js' %}"></script>
+    {% block pagescripts %} {% endblock %}
+</body>
+</html>
