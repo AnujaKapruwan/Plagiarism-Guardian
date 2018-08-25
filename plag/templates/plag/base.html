@@ -1,4 +1,5 @@
 {% load staticfiles %}
+{% load custom_tags %}
 <!doctype html>
 <html lang="en">
 <head>
@@ -34,6 +35,21 @@
                 <ul class="mainNav">
                     {% include 'plag/common/website_links.html' %}
                 </ul>
+                <div id="sublinks">
+                    <div id="loginbox">
+                        <div id="innerlogin">
+                            {% include 'plag/common/login_form.html' %}
+                        </div>
+                    </div>
+                    <ul class="mainNav">
+                        {% if user.is_authenticated %}
+                            <li><a href="{% url 'logout' %}">Logout</a></li>
+                        {% else %}
+                            <li><a href="javascript:void(0);" id="loginlink">Login</a></li>
+                        {% endif %}
+
+                    </ul>
+                </div>
             </nav>
             {% block splashintro %} {% endblock %}
         </div>
@@ -69,7 +85,7 @@
             </section>
 
             <section id="social-block">
-                   <h1><span><img src="{% static 'plag/icon/AddressBook.png' %}" alt="x" /> Address</span></h1>
+                   <h1><span><img src="{% static 'plag/icon/Contact.png' %}" alt="x" /> Contact Us</span></h1>
                 <p itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
                 Plagiarism Guardian,<br />
                 <span itemprop="locality">Dehradun</span>,<br />
@@ -79,10 +95,10 @@
             </section>
 
             <section id="contact-info">
-<h1><span><img src="{% static 'plag/icon/Contact.png' %}" alt="x" /> Contact Info</span></h1>
+
                 <p> <strong>Phone</strong>: +919000000000<br />
                     <strong>General Email</strong>:admin@plagiarismguardian.com
-                                      <strong>Support Email</strong>::support@plagiarismguardian.com
+                                      <strong>Sales Email</strong>::sales@plagiarismguardian.com
                           </p>
             </section>
             <br class="clear">
@@ -93,7 +109,7 @@
         <div class="standard-width">
             <img src="{% static 'plag/img/logo_small.png' %}" alt="Plagiarism Guardian" id="logo" /></a>
             <!-- TODO Copyright link not clickable due to CSS styling on list -->
-            <p><a href="#">Copyright &copy; 2017-2018</a></p>
+            <p><a href="#">Copyright &copy; 2017-2018</a>, Plagiarism Guardian</p>
 
         </div>
     </footer>

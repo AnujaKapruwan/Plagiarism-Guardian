@@ -112,3 +112,7 @@ def generate_ngrams(text, n=3):
 
     return ngrams
 
+
+def amend_filepath_slashes(path):
+    alt_sep = ("\\" if os.sep == "/" else "/")
+    return path.replace(os.sep, alt_sep).replace(alt_sep, os.sep)

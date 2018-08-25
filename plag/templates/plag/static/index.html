@@ -12,7 +12,7 @@
 {% block splashintro %}
     <section id="splashintro">
         <h1>Did you know that 23% of all content is plagiarized?</h1>
-        <h2>Check that your content is safe :</h2>
+        <h2>Check that your content is safe via our free trial:</h2>
         <form method="POST" action="{% url 'index_trial' %}" enctype="multipart/form-data">
             {% csrf_token %}
 
@@ -56,7 +56,7 @@
     </section>
     <br class="clear">
     <p>At Plagiarism Guardian we are proud to work with our customers to turn the tide against plagiarists and content scrapers. Our high tech software offers unparalleled automated protection for a range of content sources – be it a website, Word document, PDF, Powerpoint presentation or more. We regularly scan our customers' content and compare it to billions of other content sources from across the internet, and flag up any suspected cases of plagiarism and content theft.</p>
-    <p>Our service is completely online – there is no software to download.</p>
+    <p>Our service is completely online – there is no software to download. Simply tell us what content you’d like us to protect, and how often we should scan your content, and we take care of the rest. You can access your plagiarism results anywhere, anytime. Our low pricing starts at just $3.50 per month.</p>
 
 {% endblock %}
 

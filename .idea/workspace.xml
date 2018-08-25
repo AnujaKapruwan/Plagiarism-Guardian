@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ad80c7c-6483-40c9-a981-2824b8cc8d6b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/plagiarism-detection-software.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/plagiarism-detection-software.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlagiarismGuardian/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlagiarismGuardian/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlagiarismGuardian/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlagiarismGuardian/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlagiarismGuardian/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlagiarismGuardian/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlagiarismGuardian/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlagiarismGuardian/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/management/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/management/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/management/commands/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/management/commands/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/management/commands/post_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/management/commands/post_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/migrations/0002_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/migrations/0002_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/migrations/0003_invoice.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/migrations/0003_invoice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/migrations/0004_protectedresource.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/migrations/0004_protectedresource.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/migrations/0005_scanlog.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/migrations/0005_scanlog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/migrations/0006_scanresult.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/migrations/0006_scanresult.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/migrations/0007_userpreference.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/migrations/0007_userpreference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/migrations/0008_auto_20140914_1623.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/migrations/0008_auto_20140914_1623.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/migrations/0009_auto_20140916_2040.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/migrations/0009_auto_20140916_2040.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/services.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/css/changelists.css" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/css/changelists.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/css/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/css/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/css/forms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/css/ie.css" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/css/ie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/css/rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/css/rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/css/widgets.css" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/css/widgets.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/changelist-bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/changelist-bg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/changelist-bg_rtl.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/changelist-bg_rtl.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/default-bg-reverse.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/default-bg-reverse.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/default-bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/default-bg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/deleted-overlay.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/deleted-overlay.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/gis/move_vertex_off.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/gis/move_vertex_off.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/gis/move_vertex_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/gis/move_vertex_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/icon-no.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/icon-no.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/icon-unknown.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/icon-unknown.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/icon-yes.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/icon-yes.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/icon_addlink.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/icon_addlink.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/icon_alert.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/icon_alert.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/icon_calendar.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/icon_calendar.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/icon_changelink.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/icon_changelink.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/icon_clock.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/icon_clock.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/icon_deletelink.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/icon_deletelink.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/icon_error.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/icon_error.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/icon_searchbox.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/icon_searchbox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/icon_success.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/icon_success.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/inline-delete-8bit.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/inline-delete-8bit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/inline-delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/inline-delete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/inline-restore-8bit.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/inline-restore-8bit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/inline-restore.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/inline-restore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/inline-splitter-bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/inline-splitter-bg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/nav-bg-grabber.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/nav-bg-grabber.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/nav-bg-reverse.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/nav-bg-reverse.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/nav-bg-selected.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/nav-bg-selected.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/nav-bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/nav-bg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/selector-icons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/selector-icons.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/selector-search.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/selector-search.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/sorting-icons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/sorting-icons.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/tooltag-add.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/tooltag-add.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/img/tooltag-arrowright.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/img/tooltag-arrowright.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/LICENSE-JQUERY.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/LICENSE-JQUERY.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/SelectBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/SelectBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/SelectFilter2.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/SelectFilter2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/actions.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/actions.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/collapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/collapse.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/collapse.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/inlines.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/inlines.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/inlines.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/inlines.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/jquery.init.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/jquery.init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/prepopulate.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/prepopulate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/prepopulate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/prepopulate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/timeparse.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/timeparse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/admin/js/urlify.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/admin/js/urlify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/Add.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/Add.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/AjaxLoader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/AjaxLoader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/AltAdd.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/AltAdd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/Back.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/Back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/BulkAdd.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/BulkAdd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/Cog.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/Cog.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/Contact.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/Contact.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/Cross.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/Cross.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/DOC.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/DOC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/Delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/Delete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/Edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/Edit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/Help.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/Help.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/Online.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/Online.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/PDF.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/PDF.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/PPT.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/PPT.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/Padlock.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/Padlock.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/People.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/People.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/SiteLinks.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/SiteLinks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/Social.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/Social.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/TXT.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/TXT.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/Tick.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/Tick.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/icon/Tick2.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/icon/Tick2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/js/Chart.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/js/Chart.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/js/excanvas.compiled.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/js/excanvas.compiled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/js/html5shiv.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/js/html5shiv.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/js/jquery-1.11.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/js/jquery-1.11.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/js/jquery.tablesorter.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/js/jquery.tablesorter.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/js/jsrender.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/js/jsrender.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/styles/box-header-decoration.png" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/styles/box-header-decoration.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/styles/content-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/styles/content-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/styles/footer-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/styles/footer-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/styles/header-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/styles/header-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/styles/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/styles/main-final-footer-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/styles/main-final-footer-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/styles/nav-dropdown-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/styles/nav-dropdown-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/styles/nav-header-bgs-inverse.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/styles/nav-header-bgs-inverse.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/styles/nav-header-bgs-light.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/styles/nav-header-bgs-light.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/styles/nav-header-bgs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/styles/nav-header-bgs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/styles/nav-hover-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/styles/nav-hover-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/static/plag/styles/normalize.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/plag/static/plag/styles/normalize.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/templates/plag/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/plag/templates/plag/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/templates/plag/common/website_links.html" beforeDir="false" afterPath="$PROJECT_DIR$/plag/templates/plag/common/website_links.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/templates/plag/static/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/plag/templates/plag/static/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/templates/plag/static/contact_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/plag/templates/plag/static/contact_us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/templates/plag/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/plag/templates/plag/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/templates/plag/static/index_trial.html" beforeDir="false" afterPath="$PROJECT_DIR$/plag/templates/plag/static/index_trial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/templatetags/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/templatetags/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/templatetags/lt_gt_replace.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/templatetags/lt_gt_replace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plag/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/plag/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/getqueriespertype/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/getqueriespertype/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/getqueriespertype/doc.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/getqueriespertype/doc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/getqueriespertype/docx.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/getqueriespertype/docx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/getqueriespertype/pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/getqueriespertype/pdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/getqueriespertype/pptx.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/getqueriespertype/pptx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/getqueriespertype/txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/getqueriespertype/txt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/getqueriespertype/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/getqueriespertype/url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/handlequeries.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handlequeries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/textcleanup.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/textcleanup.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/plagiarism_detection_software$manage.coverage" NAME="manage Coverage Results" MODIFIED="1535202652133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plag/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4913">
+              <caret line="311" selection-start-line="311" selection-end-line="311" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plag/services.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9860">
+              <caret line="605" column="23" selection-start-line="605" selection-start-column="23" selection-end-line="605" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="txt.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/getqueriespertype/txt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plag/templates/plag/static/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handlequeries.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/util/handlequeries.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="textcleanup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/textcleanup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_trial.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plag/templates/plag/static/index_trial.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="90" selection-start-line="88" selection-start-column="4" selection-end-line="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post_processing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plag/management/commands/post_processing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>azure</find>
+      <find>support</find>
+      <find>About</find>
+      <find>Tris</find>
+      <find>Guard</find>
+      <find>pay</find>
+      <find>paypal</find>
+      <find>copyrigh</find>
+      <find>ris</find>
+      <find>risks_pl</find>
+      <find>\w</find>
+      <find>\d</find>
+      <find>Index</find>
+      <find>IndexTri</find>
+      <find>bing</find>
+      <find>postproc</find>
+      <find>postprocess</find>
+      <find>trig</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\Anuja\Desktop\Documents\Minor Project\pro\plagiarism-detection-software</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PlagiarismGuard/settings.py" />
+        <option value="$PROJECT_DIR$/plag/templates/plag/static/copyright.html" />
+        <option value="$PROJECT_DIR$/plag/templates/plag/static/doc_protection.html" />
+        <option value="$PROJECT_DIR$/plag/templates/plag/common/website_links.html" />
+        <option value="$PROJECT_DIR$/plag/services.py" />
+        <option value="$PROJECT_DIR$/plag/templates/plag/common/about_links.html" />
+        <option value="$PROJECT_DIR$/plag/templates/plag/static/about.html" />
+        <option value="$PROJECT_DIR$/plag/templates/plag/static/index.html" />
+        <option value="$PROJECT_DIR$/plag/templates/plag/base.html" />
+        <option value="$PROJECT_DIR$/plag/templates/plag/static/contact_us.html" />
+        <option value="$PROJECT_DIR$/plag/views.py" />
+        <option value="$PROJECT_DIR$/plag/admin.py" />
+        <option value="$PROJECT_DIR$/plag/urls.py" />
+        <option value="$PROJECT_DIR$/plag/models.py" />
+        <option value="$PROJECT_DIR$/util/textcleanup.py" />
+        <option value="$PROJECT_DIR$/util/handlequeries.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="y" value="23" />
+    <option name="width" value="1366" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="plagiarism-detection-software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plagiarism-detection-software" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plagiarism-detection-software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plagiarism-detection-software" type="462c0819:PsiDirectoryNode" />
+              <item name="plag" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plagiarism-detection-software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plagiarism-detection-software" type="462c0819:PsiDirectoryNode" />
+              <item name="plag" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plagiarism-detection-software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plagiarism-detection-software" type="462c0819:PsiDirectoryNode" />
+              <item name="plag" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plagiarism-detection-software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plagiarism-detection-software" type="462c0819:PsiDirectoryNode" />
+              <item name="plag" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plagiarism-detection-software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plagiarism-detection-software" type="462c0819:PsiDirectoryNode" />
+              <item name="plag" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="plag" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plagiarism-detection-software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plagiarism-detection-software" type="462c0819:PsiDirectoryNode" />
+              <item name="plag" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="plag" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plagiarism-detection-software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plagiarism-detection-software" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plagiarism-detection-software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plagiarism-detection-software" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="getqueriespertype" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="plagiarism-detection-software" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="plagiarism-detection-software" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="plagiarism-detection-software" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="plagiarism-detection-software" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="plagiarism-detection-software" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="plagiarism-detection-software" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="plagiarism-detection-software" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="plagiarism-detection-software" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ad80c7c-6483-40c9-a981-2824b8cc8d6b" name="Default" comment="" />
+      <created>1523155868236</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523155868236</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32843137" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18003026" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32843137" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/util/handlequeries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/management/commands/post_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/textcleanup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="37" column="49" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/templates/plag/static/index_trial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/templates/plag/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3791">
+          <caret line="223" column="23" lean-forward="true" selection-start-line="223" selection-start-column="23" selection-end-line="223" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3774">
+          <caret line="222" column="17" selection-start-line="222" selection-start-column="17" selection-end-line="222" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/services.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8772">
+          <caret line="516" column="56" selection-start-line="516" selection-start-column="56" selection-end-line="516" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/getqueriespertype/pdf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/getqueriespertype/txt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/textcleanup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/handlequeries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/templates/plag/static/index_trial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3689">
+          <caret line="217" column="21" selection-start-line="217" selection-start-column="21" selection-end-line="217" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/services.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="47" column="84" selection-start-line="47" selection-start-column="84" selection-end-line="47" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/handlequeries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/const.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3672">
+          <caret line="238" column="53" lean-forward="true" selection-start-line="238" selection-start-column="53" selection-end-line="238" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/templates/plag/static/doc_protection.html" />
+    <entry file="file://$PROJECT_DIR$/plag/templates/plag/static/copyright.html" />
+    <entry file="file://$PROJECT_DIR$/plag/templates/plag/base_account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/templates/plag/static/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/templates/plag/static/contact_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="52" column="73" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/templatetags/custom_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-590">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlagiarismGuard/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/templates/plag/common/about_links.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="103" column="4" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/migrations/0004_protectedresource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/templates/plag/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/templates/plag/dynamic/account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="77" column="7" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/templates/plag/common/website_links.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/getqueriespertype/pdf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/const.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4913">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/templates/plag/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/textcleanup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/getqueriespertype/txt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/services.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9860">
+          <caret line="605" column="23" selection-start-line="605" selection-start-column="23" selection-end-line="605" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/templates/plag/static/index_trial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" selection-start-line="88" selection-start-column="4" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plag/management/commands/post_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/handlequeries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

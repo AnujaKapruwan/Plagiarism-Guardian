@@ -1,11 +1,9 @@
 {% extends 'plag/base.html' %}
 {% load staticfiles %}
-{% load lt_gt_replace %}
-
 
 {% block title %}Your Results{% endblock %}
 
-{% block desc %}The results from the free homepage trial of Plagiarism Guardian{% endblock %}
+{% block desc %}The results from the free homepage trial of Plagiarism Guard{% endblock %}
 
 {% block header_section %}
     <style type="text/css">
@@ -55,10 +53,10 @@
                 <tr>
                     <td class="break">
                         <input type="hidden" class="scanResult" name="scanResult" id="scanResult{{ result.id }}" value="{{ result.id }}" />
-                        {{ result.match_title|rep }}
+                        {{ result.match_title }}
                     </td>
-                    <td class="break">{{ result.match_desc|rep }}</td>
-                    <td class="break"><a href="{{ result.match_url }}">{{ result.match_display_url|rep }}</a></td>
+                    <td class="break">{{ result.match_desc }}</td>
+                    <td class="break"><a href="{{ result.match_url }}">{{ result.match_display_url }}</a></td>
                     <td class="break"><img src="{% static 'plag/icon/AjaxLoader.gif' %}" alt="Loading..." /></td>
                 </tr>
             {% endfor %}

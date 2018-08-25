@@ -8,7 +8,12 @@
 {% block desc %}Plagiarism Guardian's addresses (physical and email addresses), helpdesk and other contact information.{% endblock %}
 
 {% block sidebar-content %}
-
+    <section class="box-titled">
+        <header>
+            <h2>Read More</h2>
+        </header>
+        {% include 'plag/common/about_links.html' %}
+    </section>
 {% endblock %}
 
 {% block content %}
@@ -30,14 +35,25 @@
 
             <strong>General Email</strong>: admin@plagiarismguardian.com <br/>
 
+            </script>
+
+            <strong>Sales Email</strong> :sales@plagiarismguardian.com <br/>
+
+
+            </script>
+
+
 
             <strong>Support Email</strong>:support@plagiarismguardian.com
-
-            <br />
-
+            <script type="text/javascript" language="javascript">
 
 
+            </script><noscript>Sorry, you need Javascript on to email me.</noscript><br />
 
-          <br />
+            <strong>Billing Email</strong>:billing@plagiarismguardian.com
+            <script type="text/javascript" language="javascript">
+
+
+            </script><noscript>Sorry, you need Javascript on to email me.</noscript><br />
 
             {% endblock %}

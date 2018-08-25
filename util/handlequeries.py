@@ -3,10 +3,11 @@ import requests
 
 def run_request(queries, exclude_urls=[]):
     result = []
-
-    key1 = '7ac1ca7e9d1e4159a30a89f36415db70'
-    key2 = '239cc58c4f184eda978ab3148c2d945c'
-
+    #key = 'secret'
+    #key1 = '7ac1ca7e9d1e4159a30a89f36415db70'
+    #key2 = '239cc58c4f184eda978ab3148c2d945c'
+    key1='c0a30445de7044f880ba3c391c67bee0'
+    key2='ba4a9cafffa24cc0a2a6a4e6337c59e3'
     for query in queries:
         headers = {"Ocp-Apim-Subscription-Key": key1}
         params = {"q": query, "textDecorations": True, "textFormat": "HTML"}
@@ -18,7 +19,6 @@ def run_request(queries, exclude_urls=[]):
             for i in json['value']:
                 add_result(i, result, exclude_urls)
 
-            '''
             # Get another page of results from the API, so each query can yield up to 100 results
             if len(json['value']) > 49 and json['__next'] is not None:
                 api_result = requests.get(
@@ -28,7 +28,6 @@ def run_request(queries, exclude_urls=[]):
                     json = api_result.json()['d']
                     for i in json['results']:
                         add_result(i, result, exclude_urls)
-            '''
 
     return result
 

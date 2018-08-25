@@ -1,8 +1,44 @@
 import urllib.request
 from urllib.error import HTTPError, URLError
 from socket import timeout
-from plag.models import ScanLog
+import threading
+
+from django.core.management.base import BaseCommand
+
+from plag.models import ScanResult, ScanLog
 from util.textcleanup import html_to_basic_text, remove_special_characters, generate_ngrams
+
+
+# TODO Look at ways of killing a thread if it's going on for too long (10 seconds per URL per thread??)
+class Command(BaseCommand):
+    args = '<number_resources_to_scan number_of_threads>'
+    help = 'Gets N scan result histories, and sees whether they are real matches or not - if the former, calculate a % of duplication (via Y threads)'
+    scan_results = None
+    current_result_idx = 0
+    lock = threading.Lock()
+
+    def process_result(self, thread_id):
+        print('Thread #' + str(thread_id) + ' starting')
+
+        while self.current_result_idx < len(self.scan_results):
+            with self.lock:
+                result = self.scan_results[self.current_result_idx]
+                self.current_result_idx += 1
+
+            post_process_result(result)
+
+        print('Thread #' + str(thread_id) + ' ending')
+
+    def handle(self, *args, **options):
+        num_to_scan = int(args[0])
+        num_threads = int(args[1])
+
+        self.scan_results = list(ScanResult.objects.filter(post_scanned=False, post_fail_type__isnull=True).order_by(
+            'timestamp')[:num_to_scan])
+
+        for i in range(num_threads):
+            t = threading.Thread(target=self.process_result, args=(i,))
+            t.start()
 
 
 def post_process_result(result):
